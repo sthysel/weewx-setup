@@ -123,3 +123,6 @@ weewx generates the static site every 5m, the generated files are copied to a s3
 bucket and served from there:
 
 http://sthysel-weewx.s3-website-ap-southeast-1.amazonaws.com/
+
+s3cmd seems to get css mime types wrong so be sure that all css files are marked
+'text/css', else it will fail to render correctly in the browser.
