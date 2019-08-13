@@ -2,9 +2,7 @@
 
 ![weewx](pics/weewx.jpg)
 
-## on RaspberryPi 3
-
-Follow the instructions on the [arm arch](https://archlinuxarm.org/) site or use [the picarbs playbook](https://github.com/sthysel/picarbs)
+Follow the instructions on the [arm arch](https://archlinuxarm.org/) site or use [the picarbs playbook](https://github.com/sthysel/picarbs) to get Arch on the SD card.
 
 ## User
 
