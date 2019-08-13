@@ -95,6 +95,9 @@ and enable:
 $ sudo systemctl enable --now weewx
 ```
 
+# Serve the weather
+
+The weather site is available locally hosted by nginx from the pi and also from a aws hosted s3 bucket
 
 ## Install nginx
 
@@ -113,3 +116,10 @@ http {
     }
 }
 ```
+
+## AWS
+
+weewx generates the static site every 5m, the generated files are copied to a s3
+bucket and served from there:
+
+http://sthysel-weewx.s3-website-ap-southeast-1.amazonaws.com/
