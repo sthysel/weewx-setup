@@ -19,8 +19,8 @@ In ~.bashrc activate venv to ease weewx admin
 source ~/weewxvenv/bin/activate
 export PATH=$PATH:~/weewx/bin/
 ```
- venv and weewx is installed below
 
+venv and weewx is installed below
 
 ## Install dependencies
 
