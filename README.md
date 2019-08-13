@@ -28,6 +28,19 @@ export PATH=$PATH:~/weewx/bin/
 $ sudo pacman -S freetype2 nginx python2 python2-virtualenv
 ```
 
+### freetype note 
+
+Its important to get freetype2 installed before building pillow as pillow will
+not link in freetype2 fonts if its not available at build time during pip
+install. 
+
+To rebuild a existing pillow install be sure to ignore the cache:
+
+```
+$ pip uninstall pillow
+$ pip install --no-cache-dir pillow
+```
+
 ## Setup virtualenv
 
 ```
