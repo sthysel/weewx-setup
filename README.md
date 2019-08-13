@@ -1,10 +1,8 @@
-# weewx setup on a RaspberryPi 3 running Arch Linux ARM[^arm]
+# weewx setup on a RaspberryPi 3 running Arch Linux ARM
 
-[^arm]: https://archlinuxarm.org/
+![weewx](pics/weewx.jpg)
 
-[weewx](pics/weewx.jpg)
-
-## ARM on RaspberryPi 3
+## on RaspberryPi 3
 
 Follow the instructions on the [arm arch](https://archlinuxarm.org/) site or use [the picarbs playbook](https://github.com/sthysel/picarbs)
 
