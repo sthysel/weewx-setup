@@ -13,14 +13,14 @@ Assume the user to run weewx is WEEWX_USER, that user needs rw access to
 $ sudo usermod -aG uucp $WEEWX_USER
 ```
 
-In ~.bashrc activate venv to ease weewx admin
+In `.bashrc` activate venv to ease weewx admin
 
 ```
 source ~/weewxvenv/bin/activate
 export PATH=$PATH:~/weewx/bin/
 ```
 
-venv and weewx is installed below
+venv and weewx are installed below
 
 ## Install dependencies
 
